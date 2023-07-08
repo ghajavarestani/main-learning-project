@@ -55,9 +55,14 @@ void main(List<String> arguments) {
   print('value = $value');
   print(count.runtimeType);
   print('==========*****==========');
-   value = true;
+  value = true;
   print('value = $value');
   print(count.runtimeType);
   print('==========*****==========');
 
+  int size = name.length;
+  print('size or lengh of name = $size');
+  print(count.runtimeType);
+  print('==========*****==========');
+  
 }
