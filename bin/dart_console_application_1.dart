@@ -10,5 +10,8 @@ void main(List<String> arguments) {
   int age2;
   //age2 = 3.14;
   double pi = 3.14;
+  print('pi = $pi');
+  int a = 9;
+  int A = 9;
   
 }
