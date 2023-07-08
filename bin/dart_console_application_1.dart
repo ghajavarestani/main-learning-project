@@ -55,5 +55,9 @@ void main(List<String> arguments) {
   print('value = $value');
   print(count.runtimeType);
   print('==========*****==========');
+   value = true;
+  print('value = $value');
+  print(count.runtimeType);
+  print('==========*****==========');
 
 }
