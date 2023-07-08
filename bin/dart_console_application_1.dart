@@ -37,4 +37,9 @@ void main(List<String> arguments) {
   print('isOk = $isOk');
   print(count.runtimeType);
   print('==========*****==========');
+
+  name = '12';
+  print('name = $name');
+  print(count.runtimeType);
+  print('==========*****==========');
 }
