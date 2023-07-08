@@ -87,4 +87,8 @@ void main(List<String> arguments) {
   print('Fullname is $Fullname');
   print(Fullname.runtimeType);
   print('==========*****==========');
+  String Fullname1 = name + '  ' + family;
+  print('Fullname is $Fullname');
+  print(Fullname1.runtimeType);
+  print('==========*****==========');
 }
