@@ -98,5 +98,8 @@ void main(List<String> arguments) {
   print(family.runtimeType);
   print('==========*****==========');
 
-  
+  int sum = 3 + 5;
+  print('sum equals to $sum');
+  print(sum.runtimeType);
+  print('==========*****=========='); 
 }
