@@ -43,6 +43,10 @@ void main(List<String> arguments) {
   print(count.runtimeType);
   print('==========*****==========');
 
+  name = 'Mahdi';
+  print(name.runtimeType);
+  print('==========*****==========');
+
   dynamic value = 10;
   print('value = $value');
   print(count.runtimeType);
@@ -64,5 +68,12 @@ void main(List<String> arguments) {
   print('size or lengh of name = $size');
   print(count.runtimeType);
   print('==========*****==========');
-  
+
+  List unit = name.codeUnits;
+  print('size or lengh of name = $unit');
+  print(count.runtimeType);
+  print('==========*****==========');
+
+  bool empty = name.isEmpty;
+  print('name is empty $empty');
 }
