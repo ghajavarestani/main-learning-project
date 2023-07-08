@@ -101,5 +101,11 @@ void main(List<String> arguments) {
   int sum = 3 + 5;
   print('sum equals to $sum');
   print(sum.runtimeType);
-  print('==========*****=========='); 
+  print('==========*****==========');
+
+  sum = 3;
+  print('${sum + 5}');
+  print('sum equals to $sum');
+  print(sum.runtimeType);
+  print('==========*****==========');
 }
