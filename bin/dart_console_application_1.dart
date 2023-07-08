@@ -33,8 +33,8 @@ void main(List<String> arguments) {
   print('isOk = $isOk');
   isOk = true;
   print('isOk = $isOk');
+  isOk = false;
+  print('isOk = $isOk');
   print(count.runtimeType);
   print('==========*****==========');
-
-  
 }
