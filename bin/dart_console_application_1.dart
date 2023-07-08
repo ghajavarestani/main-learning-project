@@ -8,6 +8,7 @@ void main(List<String> arguments) {
   int count;
   count = 7;
   print('count = $count');
+  print(count.runtimeType);
   print('==========*****==========');
 
   int myAge;
@@ -15,20 +16,24 @@ void main(List<String> arguments) {
   //age2 = 3.14;
   double pi = 3.14;
   print('pi = $pi');
+  print(count.runtimeType);
   print('==========*****==========');
 
   int a = 9;
   int A = 9;
+  print(count.runtimeType);
   print('==========*****==========');
 
   String name = 'Flutter';
   print('name = $name');
+  print(count.runtimeType);
   print('==========*****==========');
 
   bool isOk = false;
   print('isOk = $isOk');
   isOk = true;
   print('isOk = $isOk');
+  print(count.runtimeType);
   print('==========*****==========');
 
   
