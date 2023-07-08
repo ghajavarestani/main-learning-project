@@ -76,4 +76,10 @@ void main(List<String> arguments) {
 
   bool empty = name.isEmpty;
   print('name is empty $empty');
+  print(empty.runtimeType);
+  print('==========*****==========');
+
+  
+  print(count.runtimeType);
+  print('==========*****==========');
 }
