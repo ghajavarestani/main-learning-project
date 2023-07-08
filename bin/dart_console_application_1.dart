@@ -42,4 +42,14 @@ void main(List<String> arguments) {
   print('name = $name');
   print(count.runtimeType);
   print('==========*****==========');
+
+  dynamic value = 10;
+  print('value = $value');
+  print(count.runtimeType);
+  print('==========*****==========');
+  value = 4.44;
+  print('value = $value');
+  print(count.runtimeType);
+  print('==========*****==========');
+  
 }
