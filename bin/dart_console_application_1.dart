@@ -79,7 +79,8 @@ void main(List<String> arguments) {
   print(empty.runtimeType);
   print('==========*****==========');
 
-  
-  print(count.runtimeType);
+  String family = 'jalali';
+  print('family is $family');
+  print(family.runtimeType);
   print('==========*****==========');
 }
