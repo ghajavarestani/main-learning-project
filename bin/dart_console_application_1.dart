@@ -13,5 +13,6 @@ void main(List<String> arguments) {
   print('pi = $pi');
   int a = 9;
   int A = 9;
-  
+  String name = 'Flutter';
+  print('name = $name');
 }
