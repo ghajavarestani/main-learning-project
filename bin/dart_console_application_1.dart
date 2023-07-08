@@ -6,5 +6,9 @@ void main(List<String> arguments) {
   int count;
   count = 7;
   print('count = $count');
+  int myAge;
+  int age2;
+  //age2 = 3.14;
+  double pi = 3.14;
   
 }
