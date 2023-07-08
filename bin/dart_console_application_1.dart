@@ -91,4 +91,12 @@ void main(List<String> arguments) {
   print('Fullname is $Fullname');
   print(Fullname1.runtimeType);
   print('==========*****==========');
+
+  print('$name name');
+  print('$name $family');
+  print(name.runtimeType);
+  print(family.runtimeType);
+  print('==========*****==========');
+
+  
 }
