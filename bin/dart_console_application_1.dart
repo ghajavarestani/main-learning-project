@@ -212,7 +212,139 @@ void main(List<String> arguments) {
   print('==========*****==========');
 
   //12th film condition command
-  
-  print(data.runtimeType);
+  num = 10;
+  if (num < 10) {
+    print('failed');
+  }
+  print('num equals to $num');
+  print(num.runtimeType);
   print('==========*****==========');
+
+  num = 10;
+  if (num > 10) {
+    print('failed');
+  }
+  print('num equals to $num');
+  print(num.runtimeType);
+  print('==========*****==========');
+
+  num = 10;
+  if (num >= 10) {
+    print('failed');
+  }
+  print('num equals to $num');
+  print(num.runtimeType);
+  print('==========*****==========');
+
+  num = 10;
+  if (num <= 10) {
+    print('failed');
+  }
+  print('num equals to $num');
+  print(num.runtimeType);
+  print('==========*****==========');
+
+  num = 11;
+  if (num > 10) {
+    print('failed');
+  }
+  print('num equals to $num');
+  print(num.runtimeType);
+  print('==========*****==========');
+
+  int nomre = 9;
+  if (nomre >= 10) {
+    print('OK');
+  } else {
+    print("NO");
+  }
+  print('num equals to $num');
+  print(num.runtimeType);
+  print('==========*****==========');
+
+  int code = 3;
+  if (code == 1) {
+    print('code is $code');
+  } else if (code == 2) {
+    print('code is $code');
+  } else if (code == 3) {
+    print('code is $code');
+  } else {
+    print('not same');
+  }
+  print('code equals to $code');
+  print(code.runtimeType);
+  print('==========*****==========');
+
+  nomre = 11;
+  if (nomre < 10 && nomre >= 0) {
+    print('your score is failed and nore = $nomre');
+  } else if (nomre < 12 && nomre >= 10) {
+    print('your score is accept but mashroot and nomre = $nomre');
+  } else if (nomre >= 12 && nomre <= 20) {
+    print('your score is accept and ok and nomre = $nomre');
+  } else {
+    print('nomre nadare and nomre = $nomre');
+  }
+  print('code equals to $code');
+  print(code.runtimeType);
+  print('==========*****==========');
+
+  nomre = 12;
+  if (nomre < 10 && nomre >= 0) {
+    print('your score is failed and nore = $nomre');
+  } else if (nomre < 12 && nomre >= 10) {
+    print('your score is accept but mashroot and nomre = $nomre');
+  } else if (nomre >= 12 && nomre <= 20) {
+    print('your score is accept and ok and nomre = $nomre');
+  } else {
+    print('nomre nadare and nomre = $nomre');
+  }
+  print('code equals to $code');
+  print(code.runtimeType);
+  print('==========*****==========');
+
+  nomre = 9;
+  if (nomre < 10 && nomre >= 0) {
+    print('your score is failed and nore = $nomre');
+  } else if (nomre < 12 && nomre >= 10) {
+    print('your score is accept but mashroot and nomre = $nomre');
+  } else if (nomre >= 12 && nomre <= 20) {
+    print('your score is accept and ok and nomre = $nomre');
+  } else {
+    print('nomre nadare and nomre = $nomre');
+  }
+  print('code equals to $code');
+  print(code.runtimeType);
+  print('==========*****==========');
+
+  nomre = -1;
+  if (nomre < 10 && nomre >= 0) {
+    print('your score is failed and nore = $nomre');
+  } else if (nomre < 12 && nomre >= 10) {
+    print('your score is accept but mashroot and nomre = $nomre');
+  } else if (nomre >= 12 && nomre <= 20) {
+    print('your score is accept and ok and nomre = $nomre');
+  } else {
+    print('nomre nadare and nomre = $nomre');
+  }
+  print('code equals to $code');
+  print(code.runtimeType);
+  print('==========*****==========');
+
+  nomre = 21;
+  if (nomre < 10 && nomre >= 0) {
+    print('your score is failed and nore = $nomre');
+  } else if (nomre < 12 && nomre >= 10) {
+    print('your score is accept but mashroot and nomre = $nomre');
+  } else if (nomre >= 12 && nomre <= 20) {
+    print('your score is accept and ok and nomre = $nomre');
+  } else {
+    print('nomre nadare and nomre = $nomre');
+  }
+  print('code equals to $code');
+  print(code.runtimeType);
+  print('==========*****==========');
+
+  //film 13th switch command
 }
