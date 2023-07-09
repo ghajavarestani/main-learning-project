@@ -176,4 +176,9 @@ void main(List<String> arguments) {
   print('math equals to $math');
   print(math.runtimeType);
   print('==========*****==========');
+
+  double math1 = (4 + 2) / 2 + 4 * 4 - (2 + 2);
+  print('math1 equals to $math1');
+  print(math1.runtimeType);
+  print('==========*****==========');
 }
