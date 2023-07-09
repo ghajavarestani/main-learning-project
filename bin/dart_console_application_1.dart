@@ -351,8 +351,111 @@ void main(List<String> arguments) {
   // print('Welcome!');
 
   //film 13th switch command
-
+  code = 1;
+  switch (code) {
+    case 0:
+      {
+        print('code is 0');
+      }
+      break;
+    case 1:
+      {
+        print('code is 1');
+      }
+      break;
+    case 2:
+      {
+        print('code is 2');
+      }
+      break;
+    case 3:
+      {
+        print('code is 3');
+      }
+      break;
+    default:
+  }
   print('code equals to $code');
   print(code.runtimeType);
   print('==========*****==========');
+
+  code = 4;
+  switch (code) {
+    case 0:
+      {
+        print('code is 0');
+      }
+      break;
+    case 1:
+      {
+        print('code is 1');
+      }
+      break;
+    case 2:
+      {
+        print('code is 2');
+      }
+      break;
+    case 3:
+      {
+        print('code is 3');
+      }
+      break;
+    default:
+  }
+  print('code equals to $code');
+  print(code.runtimeType);
+  print('==========*****==========');
+
+  code = 4;
+  switch (code) {
+    case 0:
+      {
+        print('code is 0');
+      }
+      break;
+    case 1:
+      {
+        print('code is 1');
+      }
+      break;
+    case 2:
+      {
+        print('code is 2');
+      }
+      break;
+    case 3:
+      {
+        print('code is 3');
+      }
+      break;
+    default:
+      {
+        print('not same');
+      }
+  }
+  print('code equals to $code');
+  print(code.runtimeType);
+  print('==========*****==========');
+
+  var str = 'B';
+  switch (str) {
+    case 'A':
+      {
+        print('var str equals to A');
+      }
+      break;
+    case 'A':
+      {
+        print('var str equals to B');
+      }
+      break;
+    default:
+      {}
+  }
+  print('str equals to $str');
+  print(str.runtimeType);
+  print('==========*****==========');
+
+  //film 14th dastoore tekrar va halghe dar dart
 }
