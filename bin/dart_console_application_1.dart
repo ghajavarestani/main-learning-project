@@ -125,4 +125,9 @@ void main(List<String> arguments) {
   print('max tha is miltiple equals to $max');
   print(max.runtimeType);
   print('==========*****==========');
+
+  double division = max / 2;
+  print('division is equals to $division');
+  print(max.runtimeType);
+  print('==========*****==========');
 }
