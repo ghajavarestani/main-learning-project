@@ -135,4 +135,9 @@ void main(List<String> arguments) {
   print('mode equals to $mode');
   print(mode.runtimeType);
   print('==========*****==========');
+
+  int counter = 8;
+  print('counter equals to $counter');
+  print(mode.runtimeType);
+  print('==========*****==========');
 }
