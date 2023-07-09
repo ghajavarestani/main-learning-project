@@ -109,7 +109,7 @@ void main(List<String> arguments) {
   print(sum.runtimeType);
   print('==========*****==========');
 
-  //start video 10th
+  //start video 10th amalgarha dar dart
   print('==========*****==========');
 
   print('sum equals to $sum');
