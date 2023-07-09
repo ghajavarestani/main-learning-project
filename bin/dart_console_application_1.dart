@@ -197,4 +197,17 @@ void main(List<String> arguments) {
   print('i equals to $i');
   print(i.runtimeType);
   print('==========*****==========');
+
+  double value1 = 3.14316;
+  String data = value1.toString();
+  print('value1 equals to $value1');
+  print('data equals to $data');
+  print(value1.runtimeType);
+  print(data.runtimeType);
+  String data1 = value1.toStringAsFixed(3);
+  print('value1 equals to $value1');
+  print('data1 equals to $data1');
+  print(value1.runtimeType);
+  print(data.runtimeType);
+  print('==========*****==========');
 }
