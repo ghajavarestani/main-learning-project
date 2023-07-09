@@ -156,4 +156,10 @@ void main(List<String> arguments) {
   print('counter equals to $counter');
   print(counter.runtimeType);
   print('==========*****==========');
+
+  counter = 1;
+  counter = counter + 2;
+  print('counter equals to $counter');
+  print(counter.runtimeType);
+  print('==========*****==========');
 }
