@@ -187,4 +187,9 @@ void main(List<String> arguments) {
   print('num equals to $num');
   print(num.runtimeType);
   print('==========*****==========');
+
+  name = num.toString();
+  print('name equals to $name');
+  print(name.runtimeType);
+  print('==========*****==========');
 }
