@@ -192,4 +192,9 @@ void main(List<String> arguments) {
   print('name equals to $name');
   print(name.runtimeType);
   print('==========*****==========');
+
+  double i = double.parse('4.44');
+  print('name equals to $name');
+  print(name.runtimeType);
+  print('==========*****==========');
 }
