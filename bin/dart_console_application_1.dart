@@ -108,12 +108,21 @@ void main(List<String> arguments) {
   print('sum equals to $sum');
   print(sum.runtimeType);
   print('==========*****==========');
+
   //start video 10th
   print('==========*****==========');
+
   print('sum equals to $sum');
   sum = 8;
   print('sum equals to $sum');
+
   int minus = 5 - sum;
   print('minus 5 - sum equal to $minus');
   print(minus.runtimeType);
+  print('==========*****==========');
+
+  int max = 4 * 9;
+  print('max tha is miltiple equals to $max');
+  print(max.runtimeType);
+  print('==========*****==========');
 }
