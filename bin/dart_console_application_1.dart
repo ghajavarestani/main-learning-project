@@ -347,4 +347,8 @@ void main(List<String> arguments) {
   print('==========*****==========');
 
   //film 13th switch command
+  
+  print('code equals to $code');
+  print(code.runtimeType);
+  print('==========*****==========');
 }
