@@ -138,6 +138,8 @@ void main(List<String> arguments) {
 
   int counter = 8;
   print('counter equals to $counter');
+  counter++;
+  print('counter equals to $counter');
   print(mode.runtimeType);
   print('==========*****==========');
 }
