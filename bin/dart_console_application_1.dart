@@ -130,4 +130,9 @@ void main(List<String> arguments) {
   print('division is equals to $division');
   print(max.runtimeType);
   print('==========*****==========');
+
+  double mode = max % 2;
+  print('mode equals to $mode');
+  print(mode.runtimeType);
+  print('==========*****==========');
 }
