@@ -110,6 +110,9 @@ void main(List<String> arguments) {
   print('==========*****==========');
   //start video 10th
   print('==========*****==========');
+  print('sum equals to $sum');
+  sum = 8;
+  print('sum equals to $sum');
   int minus = 5 - sum;
   print('minus 5 - sum equal to $minus');
   print(minus.runtimeType);
