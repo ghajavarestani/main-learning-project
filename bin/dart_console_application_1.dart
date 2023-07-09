@@ -181,4 +181,10 @@ void main(List<String> arguments) {
   print('math1 equals to $math1');
   print(math1.runtimeType);
   print('==========*****==========');
+
+  //film 11th type casting tabdile noe dade
+  int num = int.parse('1');
+  print('num equals to $num');
+  print(num.runtimeType);
+  print('==========*****==========');
 }
