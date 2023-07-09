@@ -210,4 +210,9 @@ void main(List<String> arguments) {
   print(value1.runtimeType);
   print(data.runtimeType);
   print('==========*****==========');
+
+  //12th film condition command
+  
+  print(data.runtimeType);
+  print('==========*****==========');
 }
