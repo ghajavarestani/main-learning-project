@@ -346,8 +346,12 @@ void main(List<String> arguments) {
   print(code.runtimeType);
   print('==========*****==========');
 
+  // var agee = 15;
+  // assert(agee >= 18, 'You must be 18 or older to enter.');
+  // print('Welcome!');
+
   //film 13th switch command
-  
+
   print('code equals to $code');
   print(code.runtimeType);
   print('==========*****==========');
