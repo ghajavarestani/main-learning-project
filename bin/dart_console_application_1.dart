@@ -167,4 +167,13 @@ void main(List<String> arguments) {
   print('counter equals to $counter');
   print(counter.runtimeType);
   print('==========*****==========');
+
+  //dsfsdfsdfsdfsdfsdf
+  //sdfsdfsdfsfsdfsdf
+  //comment gozari
+  //() / * - +
+  int math = 5 + 7 * 2;
+  print('math equals to $math');
+  print(math.runtimeType);
+  print('==========*****==========');
 }
