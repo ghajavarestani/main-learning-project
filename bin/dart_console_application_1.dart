@@ -592,5 +592,72 @@ void main(List<String> arguments) {
   print('==========*****==========');
 
   //film 15th while and do while
+  int j = 0;
+  while (j <= 10) {
+    print('j is $j');
+    j++;
+  }
+  print('j equals to $j');
+  print(j.runtimeType);
+  print('==========*****==========');
+
+  int k = 0;
+  while (k <= 10) {
+    k++;
+    print('k is $k');
+  }
+  print('k equals to $k');
+  print(k.runtimeType);
+  print('==========*****==========');
+
+  int first = 0;
+  while (first <= 10) {
+    int second = 0;
+    while (second <= 10) {
+      int sum = first * second;
+      if (sum < 11) {
+        stdout.write('  $sum');
+      } else {
+        stdout.write(' $sum');
+      }
+      second++;
+    }
+    first++;
+    print('');
+  }
+  print('==========*****==========');
+
+  var num1 = 5;
+  var factoriel = 1;
+  while (num1 >= 1) {
+    factoriel = factoriel * num1;
+    num1--;
+  }
+  print('the factoriel is $factoriel');
+  print('factorie equals to $factoriel');
+  print(factoriel.runtimeType);
+  print('==========*****==========');
+
+  int state = -1;
+  do {
+    print(state);
+  } while (state >= 0);
+  print('state equals to $state');
+  print(state.runtimeType);
+  print('==========#####==========');
+
+  int state1 = -1;
+  do {
+    print(state1);
+    state1++;
+  } while (state1 >= 0 && state1 <= 10);
+  print('state1 equals to $state1');
+  print(state1.runtimeType);
+  print('==========#####==========');
+
+  //film 16th array in dart
   
+  print('state1 equals to $state1');
+  print(state1.runtimeType);
+  print('==========#####==========');
 }
