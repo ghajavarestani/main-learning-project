@@ -1,5 +1,9 @@
 // import 'dart:indexed_db';
 
+// import 'dart:indexed_db';
+
+import 'dart:io';
+
 import 'package:dart_console_application_1/dart_console_application_1.dart'
     as dart_console_application_1;
 
@@ -477,4 +481,116 @@ void main(List<String> arguments) {
     print('value is => ${index}');
   }
   print('==========*****==========');
+
+  for (var index = 10; index >= 0; index--) {
+    print('value');
+  }
+  print('==========*****==========');
+
+  for (var index = 10; index >= 0; index--) {
+    print('index value equals to ${index}');
+  }
+  print('==========*****==========');
+
+  for (int index = 1; index <= 10; index += 2) {
+    print('index is equals to ${index}');
+  }
+  print('==========*****==========');
+
+  for (int index = 0; index <= 10; index += 2) {
+    print('index is equals to ${index}');
+  }
+  print('==========*****==========');
+
+  for (int index = 0; index <= 100; index++) {
+    if (index % 2 == 0) {
+      print('index is even and number equals to $index');
+    } else {
+      print('index is odd and index equals to $index');
+    }
+  }
+  print('==========*****==========');
+
+  for (int index = 0; index < 5; index++) {
+    print('*');
+  }
+  print('==========*****==========');
+
+  for (int index = 0; index < 5; index++) {
+    for (int j = 0; j <= index; j++) {
+      print('*');
+    }
+  }
+  print('==========*****==========');
+
+  for (int index = 0; index < 5; index++) {
+    for (int j = 0; j <= index; j++) {
+      stdout.write('*');
+    }
+    print('');
+  }
+  print('==========*****==========');
+
+  for (int index = 0; index <= 10; index++) {
+    for (int j = 0; j <= 10; j++) {
+      int sum = index * j;
+      print('$sum');
+    }
+  }
+  print('==========*****==========');
+
+  for (int index = 0; index <= 10; index++) {
+    for (int j = 0; j <= 10; j++) {
+      int sum = index * j;
+      stdout.write('$sum');
+    }
+  }
+  print('==========*****==========');
+
+  for (int index = 0; index <= 10; index++) {
+    for (int j = 0; j <= 10; j++) {
+      int sum = index * j;
+      stdout.write('$sum');
+    }
+    print('');
+  }
+  print('==========*****==========');
+
+  for (int index = 0; index <= 10; index++) {
+    for (int j = 0; j <= 10; j++) {
+      int sum = index * j;
+      stdout.write('$sum');
+    }
+    print('');
+  }
+  print('==========*****==========');
+
+  for (int index = 1; index <= 9; index++) {
+    for (int j = 1; j <= 9; j++) {
+      int sum = index * j;
+      if (sum < 10) {
+        stdout.write('  $sum');
+      } else {
+        stdout.write(' $sum');
+      }
+    }
+    print('');
+  }
+  print('==========*****==========');
+
+  for (int index = 0; index <= 10; index++) {
+    for (int j = 0; j <= 10; j++) {
+      int sum = index * j;
+      if (sum < 11) {
+        stdout.write('  $sum');
+      } else {
+        stdout.write(' $sum');
+      }
+    }
+    print('');
+  }
+  print('==========*****==========');
+
+  //film 15th while and do while
+  
 }
