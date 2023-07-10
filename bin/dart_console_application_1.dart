@@ -2,6 +2,7 @@
 
 // import 'dart:indexed_db';
 
+//import 'dart:indexed_db';
 import 'dart:io';
 
 import 'package:dart_console_application_1/dart_console_application_1.dart'
@@ -655,9 +656,95 @@ void main(List<String> arguments) {
   print(state1.runtimeType);
   print('==========#####==========');
 
-  //film 16th array in dart
-  
-  print('state1 equals to $state1');
-  print(state1.runtimeType);
+  //film 16th array in dart that actually named list in dart [] beracket named equals to array and at this place named list
+  var myList = [];
+  myList.add('Android');
+  myList.add('iOs');
+  myList.add('Fushia');
+  myList.add('Bada');
+  for (int index = 0; index < myList.length; index++) {
+    print('myList is $myList');
+    print('index is $index');
+  }
+  print('myList equals to $myList');
+  print(myList.runtimeType);
   print('==========#####==========');
+
+  var myList1 = [];
+  myList1.add('Android');
+  myList1.add('iOs');
+  myList1.add('Fushia');
+  myList1.add('Bada');
+  for (int index1 = 0; index1 < myList.length; index1++) {
+    print('myList1 is $myList1');
+    print('index1 is $index1 ${myList1[index1]}');
+  }
+  print('myList1 equals to $myList1');
+  print(myList1.runtimeType);
+  print('==========#####==========');
+
+  var myList2 = [];
+  myList2.add('Android');
+  myList2.add('iOs');
+  myList2.add('Fushia');
+  myList2.add('Bada');
+  String android = myList2[0];
+  print('$android');
+  for (int index2 = 0; index2 < myList.length; index2++) {
+    print('myList2 is $myList2');
+    print('index2 is $index2 ${myList1[index2]}');
+  }
+  print('myList1 equals to $myList1');
+  print(myList1.runtimeType);
+  print('==========#####==========');
+
+  myList.addAll(['Farad', 'Maryam', 'Ali']);
+  for (int index = 0; index < myList.length; index++) {
+    print('myList is $myList');
+    print('index is $index ${myList[index]}');
+  }
+  print('myList equals to $myList');
+  print(myList.runtimeType);
+  print('==========#####==========');
+
+  myList.insertAll(0, ['Iran', 'Iraq']);
+  for (int index = 0; index < myList.length; index++) {
+    print('myList is $myList');
+    print('index is $index ${myList[index]}');
+  }
+  print('myList equals to $myList');
+  print(myList.runtimeType);
+  print('==========#####==========');
+
+  myList.insert(0, ['Turkey', 'Afghanestan']);
+  for (int index = 0; index < myList.length; index++) {
+    print('myList is $myList');
+    print('index is $index ${myList[index]}');
+  }
+  print('myList equals to $myList');
+  print(myList.runtimeType);
+  print('==========#####==========');
+
+  var students = ['Ahmad', 'Reza', 'Armin'];
+  myList.addAll(students);
+  for (int index = 0; index < myList.length; index++) {
+    print('myList is $myList');
+    print('index is $index ${myList[index]}');
+  }
+  print('myList equals to $myList');
+  print(myList.runtimeType);
+  print('==========#####==========');
+
+  var students1 = ['Asghar'];
+  myList.insertAll(3,students1);
+  for (int index = 0; index < myList.length; index++) {
+    print('myList is $myList');
+    print('index is $index ${myList[index]}');
+  }
+  print('myList equals to $myList');
+  print(myList.runtimeType);
+  print('==========#####==========');
+
+  //film 17th maps in dart
+  
 }
