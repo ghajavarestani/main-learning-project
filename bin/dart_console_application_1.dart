@@ -736,7 +736,7 @@ void main(List<String> arguments) {
   print('==========#####==========');
 
   var students1 = ['Asghar'];
-  myList.insertAll(3,students1);
+  myList.insertAll(3, students1);
   for (int index = 0; index < myList.length; index++) {
     print('myList is $myList');
     print('index is $index ${myList[index]}');
@@ -746,5 +746,26 @@ void main(List<String> arguments) {
   print('==========#####==========');
 
   //film 17th maps in dart
+  var mapAuthentication = {'username': 'admin', 'password': 123};
+  print(mapAuthentication['username']);
+  print(mapAuthentication['password']);
+  var data2 = mapAuthentication['username'];
+  print('$data2');
+  mapAuthentication['role'] = 'customer';
+  print('${mapAuthentication['role']}');
+  var detailes = new Map();
+  detailes['user'] = 'admin';
+  detailes['pass'] = 'pass#1233';
+  detailes['expire'] = '2022/12/31';
+  detailes['token'] = 'TESDFDv554fvdv8df4v8f4v8df4vf8dv';
+  print('detailes equal to $detailes');
+  print(detailes.runtimeType);
+  print('data2 equals to $data2');
+  print(data2.runtimeType);
+  print('mapauthentication equals to $mapAuthentication');
+  print(mapAuthentication.runtimeType);
+  print('==========#####==========');
+
+  //film 18th troubleshooting and exception in dart 
   
 }
