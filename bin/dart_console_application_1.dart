@@ -1,3 +1,5 @@
+// import 'dart:indexed_db';
+
 import 'package:dart_console_application_1/dart_console_application_1.dart'
     as dart_console_application_1;
 
@@ -458,4 +460,21 @@ void main(List<String> arguments) {
   print('==========*****==========');
 
   //film 14th dastoore tekrar va halghe dar dart
+  // print('index equals to $index');
+  for (int index = 0; index <= 10; index++) {
+    print('hello');
+  }
+  // print('index equals to $index');
+  // print(Index.runtimeType);
+  print('==========*****==========');
+
+  for (int index = 0; index <= 100; index++) {
+    print('hello');
+  }
+  print('==========*****==========');
+
+  for (int index = 0; index <= 10; index++) {
+    print('value is => ${index}');
+  }
+  print('==========*****==========');
 }
