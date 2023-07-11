@@ -8,7 +8,7 @@ import 'dart:io';
 import 'package:dart_console_application_1/dart_console_application_1.dart'
     as dart_console_application_1;
 
-import 'humanFilm20th.dart';
+import 'humanFilm20thclass.dart';
 
 void main(List<String> arguments) {
   print('Hello world: ${dart_console_application_1.calculate()}!');
@@ -771,8 +771,20 @@ void main(List<String> arguments) {
   //film 18th troubleshooting and exception in dart
   print('==========#####==========');
 
-  var object = new Human();
-  object.name = 'Mahdi';
-  
+  var fardObject = new Human();
+  fardObject.name = 'Mahdi';
+  fardObject.family = 'jalali jam';
+  fardObject.age = 39;
+  print(fardObject.name);
+  print(fardObject.name.runtimeType);
+  print(
+      'name is ${fardObject.name} and family is  ${fardObject.family} and age is ${fardObject.age}');
+  var myObject = new Human();
+  myObject.family = 'Test';
+  myObject.name = 'asda';
+  myObject.age = 123;
+  print(myObject.family);
+  print(myObject.name);
+  print(myObject.age);
   print('==========#####==========');
 }
