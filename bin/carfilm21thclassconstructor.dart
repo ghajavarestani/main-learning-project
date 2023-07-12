@@ -13,11 +13,21 @@ class Car {
   //   print('carName is $carName');
   // }
 
+  // Car() {
+  //   print('default constructor');
+  // }
+
+  // Car.getNamed(String carName) {
+  //   print('carName is $carName');
+  // }
+
+  //film 22th
   Car() {
     print('default constructor');
   }
 
   Car.getNamed(String carName) {
+    this.carName = carName;
     print('carName is $carName');
   }
 }
