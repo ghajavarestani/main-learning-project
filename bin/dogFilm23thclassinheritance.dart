@@ -16,5 +16,7 @@ class Dog extends Animal {
     print('SLEEP DOG');
   }
 
-  
+  void walk() {
+    print('WALK DOG');
+  }
 }

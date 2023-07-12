@@ -817,8 +817,13 @@ void main(List<String> arguments) {
 
   //film 23th inheritance in dart
   Dog dog = new Dog();
-  dog.eat;
-  dog.sleep;
-  dog.action;
+  dog.eat();
+  dog.sleep();
+  dog.action();
+  dog.walk();
+  print('==========#####==========');
+
+  //film24th statics in dart
+  
   print('==========#####==========');
 }
