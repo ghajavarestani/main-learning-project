@@ -9,6 +9,7 @@ import 'package:dart_console_application_1/dart_console_application_1.dart'
     as dart_console_application_1;
 
 import 'carfilm21thclassconstructor.dart';
+import 'dogFilm23thclassinheritance.dart';
 import 'humanFilm20thclass.dart';
 import 'mathFilm20thnewclassdaghighe12.dart';
 
@@ -815,6 +816,9 @@ void main(List<String> arguments) {
   print('==========#####==========');
 
   //film 23th inheritance in dart
-  
+  Dog dog = new Dog();
+  dog.eat;
+  dog.sleep;
+  dog.action;
   print('==========#####==========');
 }
