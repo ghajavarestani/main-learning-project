@@ -9,6 +9,7 @@ import 'package:dart_console_application_1/dart_console_application_1.dart'
     as dart_console_application_1;
 
 import 'humanFilm20thclass.dart';
+import 'mathFilm20thnewclassdaghighe12.dart';
 
 void main(List<String> arguments) {
   print('Hello world: ${dart_console_application_1.calculate()}!');
@@ -786,5 +787,22 @@ void main(List<String> arguments) {
   print(myObject.family);
   print(myObject.name);
   print(myObject.age);
+  print('==========#####==========');
+
+  var mathematics = new Math();
+  mathematics.plus(5, 9);
+  mathematics.multiple(5, 9);
+  mathematics.division(10, 2);
+  mathematics.mines(10, 2);
+  mathematics.baghimandeh(10, 2);
+  //mathematics.tet();
+  //mathematics._test();
+  mathematics.counter;
+  // mathematics.value;
+  // mathematics._value;
+  print('==========#####==========');
+
+  //film 21th counstructors in dart
+  
   print('==========#####==========');
 }
