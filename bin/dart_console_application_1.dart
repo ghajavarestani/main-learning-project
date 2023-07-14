@@ -4,6 +4,7 @@
 
 //import 'dart:indexed_db';
 import 'dart:io';
+// import 'dart:js_interop';
 
 import 'package:dart_console_application_1/dart_console_application_1.dart'
     as dart_console_application_1;
@@ -12,6 +13,7 @@ import 'car_film21th_class_constructor.dart';
 import 'dog_Film23th_class_inheritance.dart';
 import 'game_film25th_enum1_classes_in_dart.dart';
 import 'game_film25th_enum1_classes_in_dart.dart';
+import 'geekinterface_film26th_classes_interface_in_dart.dart';
 import 'gender_film25th_enum2_classes_in_dart.dart';
 import 'helper_Film24th_statics_in_dart.dart';
 import 'human_Film20th_class.dart';
@@ -904,6 +906,11 @@ void main(List<String> arguments) {
 
   //film26th_classes_interfaces_in_dart
   //estefadeh az interface ba implement command
+  GeekInterface geekInterface = GeekInterface();
+  geekInterface.printData();
+  print('==========#####==========');
+
+  //film27th_nullsafty_in_dart
   
   print('==========#####==========');
 }
