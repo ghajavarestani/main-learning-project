@@ -10,9 +10,13 @@ import 'package:dart_console_application_1/dart_console_application_1.dart'
 
 import 'car_film21th_class_constructor.dart';
 import 'dog_Film23th_class_inheritance.dart';
+import 'game_film25th_enum1_classes_in_dart.dart';
+import 'game_film25th_enum1_classes_in_dart.dart';
+import 'gender_film25th_enum2_classes_in_dart.dart';
 import 'helper_Film24th_statics_in_dart.dart';
 import 'human_Film20th_class.dart';
 import 'math_Film20th_new_class_daghighe12.dart';
+import 'status_film25th_enum3_classes_in_dart.dart';
 
 void main(List<String> arguments) {
   print('Hello world: ${dart_console_application_1.calculate()}!');
@@ -837,4 +841,54 @@ void main(List<String> arguments) {
   print('==========#####==========');
 
   //film25th_enum_classes_in_dart
+  Game game = Game.EASY;
+  print(game);
+  print(game.name);
+  print(game.index);
+  Game game1 = Game.MEDIUM;
+  print(game1);
+  print(game1.name);
+  print(game1.index);
+  Game game2 = Game.HARD;
+  print(game2);
+  print(game2.name);
+  print(game2.index);
+  int MaleGenderValue = Gender.MALE.value;
+  int MaleGenderIndex = Gender.MALE.index;
+  String MaleGenderName = Gender.MALE.name;
+  print(
+      'gender value equals to ${MaleGenderValue} and gender index equals to  ${MaleGenderIndex} and gender index equals to  ${MaleGenderName}');
+  int FemaleGenderValue = Gender.FEMALE.value;
+  int FemaleGenderIndex = Gender.FEMALE.index;
+  String FemaleGenderName = Gender.FEMALE.name;
+  print(
+      'gender value equals to ${FemaleGenderValue} and gender index equals to  ${FemaleGenderIndex} and gender index equals to  ${FemaleGenderName}');
+  int NoneGenderValue = Gender.NONE.value;
+  int NoneGenderIndex = Gender.NONE.index;
+  String NoneGenderName = Gender.NONE.name;
+  print(
+      'gender value equals to ${NoneGenderValue} and gender index equals to  ${NoneGenderIndex} and gender index equals to  ${NoneGenderName}');
+  int serverResponse = 0;
+  if (serverResponse == '1') {
+    print('user is registered');
+  } else {
+    print('user is unregistered');
+  }
+
+  int serverResponse1 = 0;
+  if (serverResponse1 == Status.SUCCESS.status) {
+    print('user is registered');
+  } else {
+    print('user is unregistered');
+  }
+
+  int serverResponse2 = 1;
+  if (serverResponse2 == Status.SUCCESS.status) {
+    print('user is registered');
+  } else {
+    print('user is unregistered');
+  }
+
+  String redColor = 
+  print('==========#####==========');
 }
