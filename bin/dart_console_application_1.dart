@@ -8,10 +8,11 @@ import 'dart:io';
 import 'package:dart_console_application_1/dart_console_application_1.dart'
     as dart_console_application_1;
 
-import 'carfilm21thclassconstructor.dart';
-import 'dogFilm23thclassinheritance.dart';
-import 'humanFilm20thclass.dart';
-import 'mathFilm20thnewclassdaghighe12.dart';
+import 'car_film21th_class_constructor.dart';
+import 'dog_Film23th_class_inheritance.dart';
+import 'helper_Film24th_statics_in_dart.dart';
+import 'human_Film20th_class.dart';
+import 'math_Film20th_new_class_daghighe12.dart';
 
 void main(List<String> arguments) {
   print('Hello world: ${dart_console_application_1.calculate()}!');
@@ -824,6 +825,16 @@ void main(List<String> arguments) {
   print('==========#####==========');
 
   //film24th statics in dart
-  
+  //namme class name shey = new name sazandeh();
+  //  |         |          |        |         | |
+  //Helper helper = new Helper();
+  Helper.changeTheme();
+  Helper.average = 120;
+  int avg = Helper.average;
+  print(avg);
+  Helper helper = new Helper();
+  helper.getNames();
   print('==========#####==========');
+
+  //film25th_enum_classes_in_dart
 }
