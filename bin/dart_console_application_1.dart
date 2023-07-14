@@ -17,6 +17,7 @@ import 'helper_Film24th_statics_in_dart.dart';
 import 'human_Film20th_class.dart';
 import 'math_Film20th_new_class_daghighe12.dart';
 import 'status_film25th_enum3_classes_in_dart.dart';
+import 'colors_film25th_enum_classes_in_dart.dart';
 
 void main(List<String> arguments) {
   print('Hello world: ${dart_console_application_1.calculate()}!');
@@ -889,6 +890,20 @@ void main(List<String> arguments) {
     print('user is unregistered');
   }
 
-  String redColor = 
+  String whiteColor = Color.WHITE.color;
+  print(whiteColor);
+  String redColor = Color.RED.color;
+  print(redColor);
+  String blueColor = Color.BLUE.color;
+  print(blueColor);
+  String blackColor = Color.BLACK.color;
+  print(blackColor);
+  String purpleColor = Color.PURPLE.color;
+  print(purpleColor);
+  print('==========#####==========');
+
+  //film26th_classes_interfaces_in_dart
+  //estefadeh az interface ba implement command
+  
   print('==========#####==========');
 }
